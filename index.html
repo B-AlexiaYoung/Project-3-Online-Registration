@@ -17,7 +17,7 @@
         <form action="index.html" method="post">
                 <div class="heading">
                 <h2>THE CODE REVIEW</h2>
-                <legend>Signup for our Newsletter</legend>
+                <h3>Signup for our Newsletter</h3>
                 <p>Get the latest news on how your code is doing right in your inbox</p>
                 <hr class="thick_line">
                 <hr class="thin_line">    <br>
@@ -27,7 +27,7 @@
                 <div class="main_container"> <!-- flex container -->
              
 
-                </div class="container">
+                </div>
                   
 <!--============================================= 
              CONTACT INFORMATIOM
@@ -60,8 +60,8 @@
                 <div class="style">
 
                         <label for="name">State</label>
-                        <select class="input_full" id="state" name="user_state" placeholder="Choose State" required>
-                                <option value="" hidden>Choose State</option>
+                        <select class="input_full" id="state" name="user_state" required>
+                                <option value="" disabled selected hidden>Choose State</option>
                                 <option value="al">AL</option>
                                 <option value="ak">AK</option>
                                 <option value="az">AZ</option>
@@ -117,8 +117,8 @@
 
 
                 <div class="style">
-                        <label for="name">Zip Code</label >
-                        <input class="input_full input_half" type="text" id="name" name="user_name" placeholder="5 digit zip"><br>
+                        <label for="zip">Zip Code</label >
+                        <input class="input_full input_half" type="text" id="zip" name="user_name" placeholder="5 digit zip"><br>
                 </div> 
                 <hr class="thin_line_bottom"> <br>
 
@@ -137,11 +137,11 @@
 
                 <div class="signup_container">
 
-                <input class="check_signup" type="checkbox" id="html" value="html_news" name:"user_interest">
-                <label class="signup"for="html">HTML News</label><br>
+                <input class="check_signup" type="checkbox" id="html" value="html_news" name="user_interest">
+                <label class="signup" for="html">HTML News</label><br>
 
 
-                <input class="check_signup" type="checkbox" id="css" value="css_news" name: user_interest>
+                <input class="check_signup" type="checkbox" id="css" value="css_news" name="user_interest">
                 <label class="signup" for="css">CSS News</label><br>
 
                 <input class="check_signup" type="checkbox" id="javascript" value="javascript_news" name="user_interest">
@@ -150,30 +150,30 @@
 
                 <label class="label_header">Newsletter format</label><br>
 
-                <input class="check_signup" type="radio" name="name" id="web" value="web_format" user="user_format">
+                <input class="check_signup" type="radio" name="name" id="web" value="web_format">
                 <label class="signup" for="web">HTML</label><br>
-                <input class="check_signup" type="radio" name="name" id="plain" value="plain_format" user="user_format">
+                <input class="check_signup" type="radio" name="name" id="plain" value="plain_format">
                 <label class="signup" for="plain">Plain text</label><br>
                 
 
 
                 <label class="label_header" >Other topics you'd like to hear about</label><br>
-                <textarea  class="textarea"id="topics" name="user_topics" placeholder="Type here..."></textarea>
+                <textarea  class="textarea" id="topics" name="user_topics" placeholder="Type here..."></textarea>
                <br>
-                <button class="button_signup"type="submit">Sign Up</button>
+                <button class="button_signup" type="submit">Sign Up</button>
                
         
-                <legend class="smaller">Copyright The Code Review</legend><br><br>
+                <h3 class="smaller">Copyright The Code Review</h3><br><br>
          </div>
              
         
-        </div>
+        <!--</div> -->
 
                 
         </fieldset>
 
         </form>
-        </div>
+        <!--</div>-->
         </div><!-- end of flex container-->
         
 </body>
