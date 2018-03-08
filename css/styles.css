@@ -75,23 +75,24 @@ fieldset {
     padding-bottom: 0.625em;
     padding-left: 0.75em;
     padding-right: 0.75em;
-	border: none;
 	background-color:rgb(188, 194, 196);
+	border: none;
+	
 }
 /*  lngd_style applies to both contact and newsletter sections  */
 .lgnd_style{
 	font-weight: 700;
 	padding-top: 3em;
 	padding-bottom: 1em;
-	color: darkslategray
+	color: darkslategray;
 }
 label{
 	display:block;
-	margin:auto;
+	margin:.2em auto;
 	background-color:rgb(188, 194, 196);
 	color: darkslategray;
-	margin-bottom: .2em;
-    margin-top: .2em;
+	/*margin-bottom: .2em;
+    margin-top: .2em;*/
 }
 .input{
 	border:none;
@@ -100,7 +101,7 @@ label{
 input:focus{
 	background-color:rgb(234, 230, 227);
 	text-align:left;
-	-webkit-transition: background-color,1s;
+	-webkit-transition: background-color, 1s;
 }
 input[type='text']:focus{
 	text-align:left;
@@ -138,7 +139,7 @@ select[placeholder]{
 .textarea{
 	width:90%;
 	border-radius:10%;
-	marfin-top:1em;
+	/*margin-top:1em;*/
 }
 input[checkbox]{
 	background-color:rgb(73, 184, 188);
@@ -167,8 +168,7 @@ input[checkbox]{
 
 .button_signup{
 	width: 90%;
-	margin: auto;
-	margin-left:1em;
+	margin: auto auto auto 1em;
 	background-color:rgb(73, 184, 188);
 	color:white;
 	border-radius:1%;
@@ -180,7 +180,6 @@ input[checkbox]{
 	height: 5em;
 	border: solid 1px transparent;
 	border-radius: 1%;
-	/* margin-left :   */
 	background-color:rgb(215, 222, 232);
 	width:90%;
 	margin-bottom: 1.5em;
@@ -223,7 +222,7 @@ p{
 	
 }*/
 
- h3, p,
+ p,
  label,
 legend{
 
@@ -255,7 +254,7 @@ div{
 
 
 .input_full{
-	display: inline-block;
+display: inline-block;
 width:40%;	
 background-color:rgb(230, 230, 235);
 margin-left:1em;
@@ -274,7 +273,7 @@ label{
 	
 	padding-left: 1em;
 	
-	margin: 2.0em;
+	margin-right: 2.0em;
 	margin-left:7em;
 	margin-bottom: 0em;
     margin-top: 0em;
@@ -298,18 +297,18 @@ label{
 	margin-bottom: 0em;
     margin-top: .2em;
 } 
-.lgnd_news_style{
+/*.lgnd_news_style{
 
-}
+}*/
 .label_header{
 	margin-left: 7em;
 	width:40em;
 	font-weight:700;
 }
-.news{
+/*.news{
 	display:flex;
 	text-align:left;
-}
+}*/
 .check_signup{
 margin-left:8.5em;
 }
