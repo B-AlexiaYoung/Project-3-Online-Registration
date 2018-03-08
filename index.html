@@ -1,182 +1,146 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <meta charset="utf-8">
-                <title>Code Review Online Registration</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title>Online Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/styles1.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  </head>
+  <body>
+    
+     
+    <form action="index.html" method="post">
+      <div class="heading"> <!-- heading        -->
+      <h2>THE CODE REVIEW</h2>
+      <h3>Signup for our Newsletter</h3>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+      </div> <!--end heading -->
+      
 
-                <link rel="stylesheet" href="css/normalize.css"> 
-                <link rel="stylesheet" href="css/styles.css">
-                <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-        </head>
-<body>
-<!--============================================= 
-            HEADINGS AND TITLE SECTIONS
-===============================================-->
-        <div>
-        <form action="index.html" method="post">
-                <div class="heading">
-                <h2>THE CODE REVIEW</h2>
-                <h3>Signup for our Newsletter</h3>
-                <p>Get the latest news on how your code is doing right in your inbox</p>
-                <hr class="thick_line">
-                <hr class="thin_line">    <br>
-                
-                </div><br>
-                
-                <div class="main_container"> <!-- flex container -->
-             
+      <hr class="thick_line">
+      <hr class="thin_line">
 
-                </div class="container">
-                  
-<!--============================================= 
-             CONTACT INFORMATIOM
-===============================================-->
-        <fieldset class:"con_info"> 
-                 
-                <legend class="lgnd_style">Contact Information</legend>
-                <div class="style">  
-                        <label for="name">Full Name</label>
-                        <input class="input_full" type="text" id="name" name="user_name" placeholder="Required" required><br>
-                </div>
-                <div class="style">
-                        <label for="email">Email Address</label>
-                        <input class="input_full" type="text" id="email" name="user_email" placeholder="Required" required><br>
-                </div>     
-                <div class="style">
-                        <label for="telNo">Phone Number</label>
-                        <input class="input_full" type="tel" id="telNo" name="user_telNo" placeholder="Required" required><br>
-                </div>
+ <fieldset> 
+    <div class="container">
+      
+        <h3>Contact Information</h3>
+        <label for="name">Full Name</label>
+        <input class="input_full" type="text" id="name" name="user_name" placeholder="Required"><br>
 
-                <div class="style">
-                        <label for="streetaddress">Street Address</label>
-                        <input class="input_full" type="text" id="streetaddress" name="user_streetaddress" placeholder="Required" required><br>
+        <label for="email">Email Address</label>
+        <input class="input_full" type="text" id="email" name="user_email" placeholder="Required"><br>
+      
+        <label for="telNo">Phone Number</label>
+        <input class="input_full" type="tel" id="telNo" name="user_telNo"><br>
 
-                </div>
-                <div class="style">
-                        <label for="city">City</label>
-                        <input class="input_full" type="text" id="city" name="user_city" placeholder="Required" required><br>
-                </div>
-                <div class="style">
+        <label for="streetaddress">Street Address</label>
+        <input class="input_full" type="text" id="streetaddress" name="user_streetaddress"><br>
 
-                        <label for="name">State</label>
-                        <select class="input_full" id="state" name="user_state" placeholder="Choose State" required>
-                                <option value="" hidden>Choose State</option>
-                                <option value="al">AL</option>
-                                <option value="ak">AK</option>
-                                <option value="az">AZ</option>
-                                <option value="ar">AR</option>
-                                <option value="ca">CA</option>
-                                <option value="co">CO</option>
-                                <option value="ct">CT</option>
-                                <option value="de">DE</option>
-                                <option value="fl">FL</option>
-                                <option value="ga">GA</option>
-                                <option value="ji">HI</option>
-                                <option value="id">ID</option>
-                                <option value="il">IL</option>
-                                <option value="in">IN</option>
-                                <option value="ks">KS</option>
-                                <option value="ky">KY</option>
-                                <option value="la">LA</option>
-                                <option value="me">ME</option>
-                                <option value="md">MD</option>
-                                <option value="ma">MA</option>
-                                <option value="mi">MI</option>
-                                <option value="mn">MN</option>
-                                <option value="ms">MS</option>
-                                <option value="mo">MO</option>
-                                <option value="mt">MT</option>
-                                <option value="ne">NE</option>
-                                <option value="nv">NV</option>
-                                <option value="nh">NH</option>
-                                <option value="nj">NJ</option>
-                                <option value="nm">NM</option>
-                                <option value="ny">NY</option>
-                                <option value="nc">NC</option>
-                                <option value="nd">ND</option>
-                                <option value="oh">OH</option>
-                                <option value="ok">OK</option>
-                                <option value="or">OR</option>
-                                <option value="pa">PA</option>
-                                <option value="ri">RI</option>
-                                <option value="sc">SC</option>
-                                <option value="sd">SD</option>
-                                <option value="tn">TN</option>
-                                <option value="tx">TX</option>
-                                <option value="ut">UT</option>
-                                <option value="vt">VT</option>
-                                <option value="va">VA</option>
-                                <option value="wa">WA</option>
-                                <option value="wv">WV</option>
-                                <option value="wi">WI</option>
-                                <option value="wy">WY</option>
+        <label for="city">City</label>
+                <select class="input_full" id="city" name="user_city">
+                        
+                        <option value="al">AL</option>
+                        <option value="ak">AK</option>
+                        <option value="az">AZ</option>
+                        <option value="ar">AR</option>
+                        <option value="ca">CA</option>
+                        <option value="co">CO</option>
+                        <option value="ct">CT</option>
+                        <option value="de">DE</option>
+                        <option value="fl">FL</option>
+                        <option value="ga">GA</option>
+                        <option value="ji">HI</option>
+                        <option value="id">ID</option>
+                        <option value="il">IL</option>
+                        <option value="in">IN</option>
+                        <option value="ks">KS</option>
+                        <option value="ky">KY</option>
+                        <option value="la">LA</option>
+                        <option value="me">ME</option>
+                        <option value="md">MD</option>
+                        <option value="ma">MA</option>
+                        <option value="mi">MI</option>
+                        <option value="mn">MN</option>
+                        <option value="ms">MS</option>
+                        <option value="mo">MO</option>
+                        <option value="mt">MT</option>
+                        <option value="ne">NE</option>
+                        <option value="nv">NV</option>
+                        <option value="nh">NH</option>
+                        <option value="nj">NJ</option>
+                        <option value="nm">NM</option>
+                        <option value="ny">NY</option>
+                        <option value="nc">NC</option>
+                        <option value="nd">ND</option>
+                        <option value="oh">OH</option>
+                        <option value="ok">OK</option>
+                        <option value="or">OR</option>
+                        <option value="pa">PA</option>
+                        <option value="ri">RI</option>
+                        <option value="sc">SC</option>
+                        <option value="sd">SD</option>
+                        <option value="tn">TN</option>
+                        <option value="tx">TX</option>
+                        <option value="ut">UT</option>
+                        <option value="vt">VT</option>
+                        <option value="va">VA</option>
+                        <option value="wa">WA</option>
+                        <option value="wv">WV</option>
+                        <option value="wi">WI</option>
+                        <option value="wy">WY</option>
+                        
+                </select>  <br>
+ 
+                        <label for="state">State</label>
+                        <input class="input_full" type="text" id="state" name="user_state"><br>
+                        <label for="zip">Zip Code</label>
+                        <input class="input_full" type="text" id="zip" name="user_zip"><br>
+                        <hr class="head2">
+                </div> <!--end container-->
+         
+</fieldset>
+  <fieldset>
+      <h3>Newsletter</h3> 
+     
+      
+      <label class="signup" >Select the newsletters you would like to recieve</label>
 
-                        </select>  <br>
-                </div>  
-
-
-                <div class="style">
-                        <label for="name">Zip Code</label >
-                        <input class="input_full input_half" type="text" id="name" name="user_name" placeholder="5 digit zip"><br>
-                </div> 
-                <hr class="thin_line_bottom"> <br>
-
-        </fieldset>
+      <div class="signup_container">  <!--flex div -->
+      
+      <input class="check_signup" type="checkbox" id="html" value="html_news" name="user_interest">
+      <label class="signup" for="html">HTML News</label><br>
+      
+      
+      <input class="check_signup" type="checkbox" id="css" value="css_news" name= "user_interest">
+      <label class="signup" for="css">CSS News</label><br>
+      
+      <input class="check_signup" type="checkbox" id="javascript" value="javascript_news" name="user_interest">
+      <label  class="signup" for="javascript">Javascript News</label><br>
 
 
-<!--============================================= 
-            NEWS LETTER SECTION
-===============================================-->
+      <label>Newsletter format</label><br>
 
-        <fieldset class="News">
-                <legend class="lgnd_style">Newsletter</legend> 
-
-
-                <label class="label_header" >Select the newsletters you would like to recieve</label>
-
-                <div class="signup_container">
-
-                <input class="check_signup" type="checkbox" id="html" value="html_news" name:"user_interest">
-                <label class="signup"for="html">HTML News</label><br>
+      <input class="check_signup" type="radio" id="web" value="web_format" >
+      <label class="signup" for="web">HTML</label><br>
+      <input class="check_signup" type="radio" id="plain" value="plain_format" >
+      <label class="signup" for="plain">Plain text</label><br>
+     
 
 
-                <input class="check_signup" type="checkbox" id="css" value="css_news" name: user_interest>
-                <label class="signup" for="css">CSS News</label><br>
+      <p>Other topics you'd like to hear about</p>
+      <input class="textarea"  id="topics" name="user_topics"><br>
+      <button class="button_signup" type="submit">Sign Up</button>
+    </div><!-- end of flex container-->
+    </fieldset>
 
-                <input class="check_signup" type="checkbox" id="javascript" value="javascript_news" name="user_interest">
-                <label  class="signup" for="javascript">Javascript News</label><br>
+    </form>
+    <!--</div>-->
+  
 
-
-                <label class="label_header">Newsletter format</label><br>
-
-                <input class="check_signup" type="radio" id="web" value="web_format" user="user_format">
-                <label class="signup" for="web">HTML</label><br>
-                <input class="check_signup" type="radio" id="plain" value="plain_format" user="user_format">
-                <label class="signup" for="plain">Plain text</label><br>
-                
-
-
-                <label class="label_header" >Other topics you'd like to hear about</label><br>
-                <textarea  class="textarea"id="topics" name="user_topics" placeholder="Type here..."></textarea>
-               <br>
-                <button class="button_signup"type="submit">Sign Up</button>
-               
-        
-                <legend class="smaller">Copyright The Code Review</legend><br><br>
-         </div>
-             
-        
-        </div>
-
-                
-        </fieldset>
-
-        </form>
-        </div>
-        </div><!-- end of flex container-->
-        
-</body>
+  </body>
 </html>
 
 
