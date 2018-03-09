@@ -25,7 +25,6 @@ body{
 
 
 
-
 /*=============================================
             THE CODE REVIEW HEADER 
       		& styling for headings      
@@ -211,9 +210,20 @@ p{
 
 	body{
 	 background-color:rgb(188, 194, 196);
+	 margin-right:auto;
+	 margin-left:auto;
+	 text-align: center;
 	}
 
+	/*.main_container{
+		text-align:center;
+	}  */
+	
 
+/*fieldset{
+	margin-left:auto;
+	margin-right:auto;
+}*/
 /*.main_container, .container, .con_info{
 	width: 80%;
 	flex-direction:row;
@@ -230,10 +240,11 @@ legend{
 	color:darkslategray;
 }
 .lgnd_style{
-	margin-left:8em;
+	margin-left:11em;  
 	padding-top: 5em;
 	margin-top: .5em;
 	color: darkslategray;
+	text-align:left;
 }
 div{
 	height:10vh;
@@ -275,7 +286,7 @@ label{
 	padding-left: 1em;
 	
 	margin-right: 2.0em;
-	margin-left:7em;
+/*	margin-left:7em;   */
 	margin-bottom: 0em;
     margin-top: 0em;
 	text-align:left;
@@ -302,7 +313,7 @@ label{
 
 }*/
 .label_header{
-	margin-left: 7em;
+	margin-left: 10em;
 	width:40em;
 	font-weight:700;
 }
@@ -310,15 +321,22 @@ label{
 	display:flex;
 	text-align:left;
 }*/
+
+
+
+
+.signup_container{
+	text-align:left;
+}
 .check_signup{
-margin-left:8.5em;
+margin-left: 11em;
 }
 
 .textarea{
 	height: 5em;
 	border: solid 1px transparent;
 	border-radius: 1%;
-	margin-left:8.5em;
+	margin-left:11em;
 	background-color:rgb(215, 222, 232);
 	width:60%;
 	margin-bottom: 3em;
@@ -327,7 +345,7 @@ margin-left:8.5em;
 
 .button_signup{
 	width: 60%;
-	margin-left: 8.5em;
+	margin-left: 11em;
 	border: solid 1px transparent;
 	border-radius: 1%;
 	margin-bottom:2em;
@@ -340,6 +358,7 @@ p{
 	
 	width:15em;
 	
-	margin-left:20.5em;
+	margin-left:auto;
+	margin-right:auto;
 }
 }/* end media desktop*/
