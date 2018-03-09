@@ -204,7 +204,9 @@ p{
 /*==============================================
 
             MEDIA QUIERY DESKTOP 
-            MIN WIDTH 768 PX
+			MIN WIDTH 768 PX    
+	 looks best at 1200px  meeds further breakpoints
+
 ===============================================*/
 @media only screen and (min-width: 768px){
 
@@ -215,22 +217,7 @@ p{
 	 text-align: center;
 	}
 
-	/*.main_container{
-		text-align:center;
-	}  */
 	
-
-/*fieldset{
-	margin-left:auto;
-	margin-right:auto;
-}*/
-/*.main_container, .container, .con_info{
-	width: 80%;
-	flex-direction:row;
-	margin:auto;
-	
-	
-}*/
 
  h3, 
  p,
@@ -240,7 +227,7 @@ legend{
 	color:darkslategray;
 }
 .lgnd_style{
-	margin-left:11em;  
+	margin-left:14em;  
 	padding-top: 5em;
 	margin-top: .5em;
 	color: darkslategray;
@@ -278,6 +265,9 @@ margin-bottom:0;
 }
 .input_half{
 	width:18%;
+	
+	margin-right: 17em;
+	
 }
 
 label{
@@ -313,7 +303,7 @@ label{
 
 }*/
 .label_header{
-	margin-left: 10em;
+	margin-left: 15em;
 	width:40em;
 	font-weight:700;
 }
@@ -329,14 +319,14 @@ label{
 	text-align:left;
 }
 .check_signup{
-margin-left: 11em;
+margin-left: 15em;
 }
 
 .textarea{
 	height: 5em;
 	border: solid 1px transparent;
 	border-radius: 1%;
-	margin-left:11em;
+	margin-left:15em;
 	background-color:rgb(215, 222, 232);
 	width:60%;
 	margin-bottom: 3em;
@@ -345,7 +335,7 @@ margin-left: 11em;
 
 .button_signup{
 	width: 60%;
-	margin-left: 11em;
+	margin-left: 15em;
 	border: solid 1px transparent;
 	border-radius: 1%;
 	margin-bottom:2em;
