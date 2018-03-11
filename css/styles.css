@@ -190,7 +190,9 @@ p{
 	text-align:center;
 	font: size 12;
 }
-
+.news_header{
+	text-align:left;
+}
 #hd-cnt,
 .smaller{
 	font-size:10px;
@@ -226,6 +228,8 @@ legend{
 
 	color:darkslategray;
 }
+
+
 .lgnd_style{
 	padding-top: 5em;
 	margin-top: .5em;
@@ -287,10 +291,15 @@ label{
 } 
 
 .label_header{
-	width:40em;
-	font-weight:700;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-
+.news_header,
+.label_header{
+	text-align:left;
+	padding-left:0;
+	width:40em;
+}
 
 .textarea{
 	height: 5em;
