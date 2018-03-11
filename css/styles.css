@@ -8,7 +8,6 @@
 * { 
     box-sizing: border-box;
   }
- /*rgb(230, 230, 235);*/
 body{
     background-color:rgb(188, 194, 196);
 }
@@ -68,15 +67,17 @@ h2{
 fieldset { 
 	display: flex;
 	flex-direction:column;
-    margin-left: 2px;
+	margin:2px;
+    /*margin-left: 2px;
     margin-right: 2px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    padding-top: ;
+    padding-bottom: 0.625em;*/
+    padding-left: 10px;
+    padding-right: 10px;
 	background-color:rgb(188, 194, 196);
 	border: none;
 	
+
 }
 /*  lngd_style applies to both contact and newsletter sections  */
 .lgnd_style{
@@ -87,11 +88,12 @@ fieldset {
 }
 label{
 	display:block;
-	margin:.2em auto;
+	margin-right:10px;
+	margin-top: .2em;
+	margin-bottom:.2em;
 	background-color:rgb(188, 194, 196);
 	color: darkslategray;
-	/*margin-bottom: .2em;
-    margin-top: .2em;*/
+	
 }
 .input{
 	border:none;
@@ -108,10 +110,8 @@ input[type='text']:focus{
 	}
 .input_full{
 	width: 95%;
-	padding: .5em;
-	margin-left: .1em;
-	/*margin-top:.2em;
-	margin-bottom:.2em;*/
+	padding-top: .5em;
+	padding-bottom:.5em;
 }
 .input_select{
 	background-color:rgb(215, 222, 232);
@@ -129,8 +129,8 @@ select[placeholder]{
 	color: darkslategray;
 }
 ::placeholder{
-	font-size:.5em;
-	
+	font-size: 1em;
+	padding-right:5px;
 	font-weight:100;
 	font-style: italic;
 	
@@ -138,7 +138,6 @@ select[placeholder]{
 .textarea{
 	width:90%;
 	border-radius:10%;
-	/*margin-top:1em;*/
 }
 input[checkbox]{
 	background-color:rgb(73, 184, 188);
@@ -154,7 +153,8 @@ input[checkbox]{
 .signup{
 	flex-direction:column;
 	display:inline-block;
-	padding:.75em;
+	padding-top:.75em;
+	padding-bottom:.75em;
 	background-color:rgb(188, 194, 196);
 } 
 .check_signup{
@@ -166,12 +166,12 @@ input[checkbox]{
 
 
 .button_signup{
-	width: 90%;
-	margin: auto auto auto 1em;
+	width: 95%;
 	background-color:rgb(73, 184, 188);
 	color:white;
 	border-radius:1%;
-	padding:.5em;
+	padding-top:.5em;
+	padding-bottom:.5em;
 	border: solid 1px transparent;
 	
 }
@@ -180,20 +180,20 @@ input[checkbox]{
 	border: solid 1px transparent;
 	border-radius: 1%;
 	background-color:rgb(215, 222, 232);
-	width:90%;
+	width:95%;
 	margin-bottom: 1.5em;
-	margin-left:1em;
 }
 
 p{
 	padding-left:1em;
-	padding-right:1em;
+	padding-right:1em;  
 	text-align:center;
-	font-size:smaller;
+	font: size 12;
 }
 
+#hd-cnt,
 .smaller{
-	font-size:smaller;
+	font-size:10px;
 	
 	text-align:center;
 	
@@ -212,13 +212,13 @@ p{
 
 	body{
 	 background-color:rgb(188, 194, 196);
-	 margin-right:auto;
-	 margin-left:auto;
-	 text-align: center;
-	}
-
 	
-
+	}
+fieldset{
+	
+	margin-left: 18%;
+}
+	
  h3, 
  p,
  label,
@@ -227,36 +227,33 @@ legend{
 	color:darkslategray;
 }
 .lgnd_style{
-	margin-left:14em;  
 	padding-top: 5em;
 	margin-top: .5em;
 	color: darkslategray;
-	text-align:left;
 }
 div{
 	height:10vh;
 }
 .thick_line{
 	border:solid 2px;
-	width:62%;
+	width:60%;
 }
 
 .thin_line{
-	width:62%;
+	width:60%;
 	margin-bottom:2em;
 
 }
 .thin_line_bottom{
 	margin-top: 2em;
-	width:65%;
+	width:60%;
 }
 
 
 .input_full{
 display: inline-block;
-width:40%;	
+width:55%;	
 background-color:rgb(230, 230, 235);
-margin-left:1em;
 line-height: 1.5em;
 border: solid 1px transparent;
 border-radius: 1%;
@@ -265,21 +262,12 @@ margin-bottom:0;
 }
 .input_half{
 	width:18%;
-	
-	margin-right: 17em;
-	
 }
 
 label{
 	display:inline-block;
-	
-	padding-left: 1em;
-	
-	margin-right: 2.0em;
-/*	margin-left:7em;   */
 	margin-bottom: 0em;
     margin-top: 0em;
-	text-align:left;
 	width:20%;
 }
 
@@ -294,61 +282,47 @@ label{
 .signup{
 	flex-direction:row;
 	width: 27em;
-	text-align:left;
-	margin-left: .5em;
 	margin-bottom: 0em;
     margin-top: .2em;
 } 
-/*.lgnd_news_style{
 
-}*/
 .label_header{
-	margin-left: 15em;
 	width:40em;
 	font-weight:700;
 }
-/*.news{
-	display:flex;
-	text-align:left;
-}*/
 
-
-
-
-.signup_container{
-	text-align:left;
-}
-.check_signup{
-margin-left: 15em;
-}
 
 .textarea{
 	height: 5em;
 	border: solid 1px transparent;
 	border-radius: 1%;
-	margin-left:15em;
 	background-color:rgb(215, 222, 232);
-	width:60%;
+	width:60vw;
 	margin-bottom: 3em;
 	margin-top:1.5em;
 }
 
 .button_signup{
-	width: 60%;
-	margin-left: 15em;
+	width: 60vw;
 	border: solid 1px transparent;
 	border-radius: 1%;
 	margin-bottom:2em;
 }
+
 p{
 	padding-top:1em;
 	margin-top:1em;
+}
+#hd-cnt{
+	width:60vw;
+	font-size: small;
+
+
 }
 .smaller{
 	
 	width:15em;
 	
-	margin-left:auto;
-	margin-right:auto;
+	
 }
 }/* end media desktop*/
